@@ -9,14 +9,10 @@
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="{{asset('css/styles.css')}}">
         <title>Welcome To InsureDIY</title>
-
-  
     </head>
-
     <body class="antialiased">
         <div id=app>
-        <app-component>
-        </app-component>
+        <welcome-component></welcome-component>
     </div>
         </div>
         <script src="{{asset('js/app.js')}}"></script>

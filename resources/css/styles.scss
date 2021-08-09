@@ -162,11 +162,9 @@ body {
 /*************************************************************/
 /** BODY STYLE*/
 .__bodyContainer {
-  background-color: whitesmoke;
-  border-radius: 15px;
-  margin-top: 25rem;
-  width: 80%;
-  height: 650px;
+  margin-top: 20rem;
+  width: fit-content;
+  height: fit-content;
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -260,13 +258,11 @@ p{
   box-sizing: border-box;
   overflow: hidden;
   display: flex;
-  padding: 15px;
-  margin: 5px;
-  justify-content: space-around;
+  justify-content: center;
  
 }
 .product{
-  margin: 13px;
+  margin: 15px;
   width: 200px;
   border-radius: 20px;
   background-color: white;

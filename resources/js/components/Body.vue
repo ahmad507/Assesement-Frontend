@@ -18,7 +18,6 @@ export default {
   components: {
     Product,
   },
-  components: {},
   data() {
     return {
       products: [

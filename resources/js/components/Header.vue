@@ -12,12 +12,8 @@
         :header_menu="header_menu"
       />
       <div class="__logreg">
-        <router-link :to="{ name: 'login' }">
-          <a class="__headerLogin">Login</a></router-link
-        >
-        <router-link :to="{ name: 'register' }"
-          ><a class="__headerRegister">Register</a></router-link
-        >
+        <a href="" class="__headerLogin">Login</a>
+        <a href="" class="__headerRegister">Register</a>
       </div>
     </div>
   </div>
