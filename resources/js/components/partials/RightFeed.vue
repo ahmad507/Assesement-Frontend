@@ -7,7 +7,7 @@
       :item="item"
     >
       <img :src="item.blog_image" class="__blogImage" />
-      <h1 class="__blogName">{{ item.blog_name }}</h1>
+      <h1>{{ item.blog_name }}</h1>
     </div>
   </div>
 </template>
