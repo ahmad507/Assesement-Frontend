@@ -8,21 +8,18 @@
         :contact="contact"
       />
     </div>
-    <div class="__footer">
-      <Feed />
-    </div>
+    <Footer />
   </div>
 </template>
-
 <script>
-import Feed from "../Feed.vue";
+import Footer from "../../Footer.vue";
 import ContactBody from "./explore_components/contact/ContactBody.vue";
 import ContactHeader from "./explore_components/contact/ContactHeader.vue";
 export default {
   components: {
-    Feed,
     ContactHeader,
     ContactBody,
+    Footer,
   },
   data() {
     return {

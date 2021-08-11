@@ -4,22 +4,20 @@
     <div class="__blogBody">
       <BlogBody v-for="blog in blogs" :key="blog.blog_image" :blog="blog" />
     </div>
-    <div class="__footer">
-      <Feed />
-    </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import BlogHeader from "./explore_components/blog/BlogHeader.vue";
 import BlogBody from "./explore_components/blog/BlogBody.vue";
-import Feed from "../Feed.vue";
+import Footer from "../../Footer.vue";
 
 export default {
   components: {
     BlogHeader,
     BlogBody,
-    Feed,
+    Footer,
   },
   data() {
     return {

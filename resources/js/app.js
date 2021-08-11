@@ -5,8 +5,12 @@ import VTooltip from 'v-tooltip'
 import VueRouter from 'vue-router'
 import routes from './routes'
 
+
+
+
 Vue.use(VTooltip)
 Vue.use(VueRouter)
+
 
 
 Vue.component('app-component', require("./components/App.vue").default);
@@ -22,8 +26,11 @@ Vue.component('LeftFeeed', require('./components/partials/LeftFeed.vue').default
 Vue.component('Login', require('./components/pages/Login.vue').default);
 Vue.component('Register', require('./components/pages/Register').default);
 
+
+
 const app = new Vue({
     el: '#app',
-    router: new VueRouter(routes)
+    router: new VueRouter(routes),
+
 });
 

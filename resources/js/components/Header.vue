@@ -1,7 +1,7 @@
 <template>
   <div class="mcontainer">
     <div class="header">
-      <router-link to="/home">
+      <router-link to="/welcome">
         <img
           class="__logo"
           src="https://api.insurediy.com.sg/storage/home/iDIY-3-logos.svg"

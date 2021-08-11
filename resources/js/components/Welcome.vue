@@ -1,33 +1,21 @@
 <template>
-  <div>
+  <div class="mcontainer">
     <Header />
-
-    <router-view v-slot="{ Component, route }">
-      <transition
-        :enter-active-class="route.meta.enterClass"
-        :leave-active-class="route.meta.leaveClass"
-        mode="out-in"
-      >
-        <component :is="Component" />
-      </transition>
-    </router-view>
+    <Body />
+    <Footer />
   </div>
 </template>
 <script>
 import Header from "./Header.vue";
+import Footer from "./Footer.vue";
+import Body from "./Body.vue";
 export default {
   components: {
     Header,
+    Body,
+    Footer,
   },
 };
 </script>
 <style>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
-}
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
 </style>
